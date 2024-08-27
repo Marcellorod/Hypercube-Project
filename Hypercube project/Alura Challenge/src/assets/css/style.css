@@ -1,0 +1,206 @@
+body {
+
+    background: url(../images/main_bg.jpg);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    transition: 1s;
+
+}
+
+header p {
+
+    position: absolute;
+    left: 400px;
+    top: 70px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    color: #00ff2a;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+#mensagem {
+
+    position: absolute;
+    padding: 10px 10px;
+    width: 680px;
+    height: 288px;
+    left: 240px;
+    top: 168px;
+    border-radius: 32px;
+    background: #000f02;
+    border: 1px solid #06f77e;
+   
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    
+    color: #00ff00;
+
+}
+
+#mensagemCripto {
+
+    position: absolute;
+    width: 350px;
+    height: 550px;
+    left: 20px;
+    top: 30px;
+    padding: 10px 15px;
+    border-radius: 32px;
+    border: 1px solid #06f77e;
+    background: #000f02;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    
+    color: #00ff22;
+
+}
+
+.text-box {
+
+    position: absolute;
+    padding: 10px 10px;
+    width: 400px;
+    height: 675px;
+    left: 1000px;
+    top: 25px;
+    
+    background: #000000;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border: 1px solid #06f77e;
+    border-radius: 32px;
+    
+}
+
+#copy {
+
+    color: #06f77e;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 1040px;
+    top: 640px;
+
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #06f77e;
+    background: #070707;
+    border-radius: 24px;
+
+}
+
+#copy:hover {
+
+    color: #06f77e;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+
+.button-box {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 640px;
+
+}
+
+.codificador {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #06f77e;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 24px;
+    gap: 8px;
+    
+    width: 328px;
+    height: 67px;
+    
+    background: #070707;
+    border: 1px solid #06f77e;
+    border-radius: 24px;
+
+}
+
+.codificador:hover {
+    
+    font-size: 17px;
+    cursor: pointer;
+
+}
+
+.decodificador {
+
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    gap: 8px;
+    color: #06f77e;
+    font-size: 20px;
+    font-weight: bold;
+
+    width: 328px;
+    height: 67px;
+
+    border: 1px solid #06f77e;
+    background: #070707;
+    border-radius: 24px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.decodificador:hover {
+
+    font-size: 17px;
+    cursor: pointer;
+
+}
+
+footer {
+
+    position: absolute;
+    bottom: 5px;
+    color: #000000;
+    font-size: 15px;
+
+}
+
+
